@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  api:
+    build: ./backend
+    container_name: ml_backend_api
+    ports:
+      - "8000:8000"
+    restart: always
+
+  dashboard:
+    build: ./frontend
+    container_name: ml_frontend_ui
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./Dataset:/app/Dataset
+    depends_on:
+      - api
+    restart: always
