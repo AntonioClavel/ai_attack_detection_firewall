@@ -3,6 +3,5 @@ uvicorn
 pandas
 scikit-learn==1.8.0
 joblib
-xgboost
 tensorflow==2.16.1
 keras>=3.0.0
