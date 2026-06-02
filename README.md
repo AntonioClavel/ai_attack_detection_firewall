@@ -1,6 +1,6 @@
 # AI Attack Detection Firewall
 
-Based on the CIC-UNSW-NB15 dataset, this project is centered around building and deploying a hybrid machine learning model that can identify if an instance of network traffic is or not an attack, and based on the attack subdivisions that are provided in the dataset, guess which type we are facing.
+Based on the CIC-UNSW-NB15 dataset, this project is centered around building and deploying a machine learning model that can identify if an instance of network traffic is or not an attack.
 
 To use/test it:
 - 1: Clone this project into any machine.
